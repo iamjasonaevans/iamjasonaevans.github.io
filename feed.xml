@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason A. Evans</title>
+    <description>Never too old for lego</description>
+    <link>http://jasonaevans.com/</link>
+    <atom:link href="http://jasonaevans.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 May 2016 18:35:26 +0800</pubDate>
+    <lastBuildDate>Tue, 17 May 2016 18:35:26 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>QA and the Agile Process (Mindset and Team Dynamics)</title>
+        <description>&lt;p&gt;A good place to start this post is with the Agile Manifesto:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;“Individuals and interactions over processes and tools”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Basically meaning that the communication and interactions which team members have, is more important than the tools and
+process which you have in place. Typically with those companies where the QA work-flow is still defined as waterfall, the
+QA team has little interaction with the other members of the team and overall project until the end.&lt;/p&gt;
+
+&lt;p&gt;So firstly let us examine what quality means, I personally like the definition given in the PMBOK which is
+&lt;strong&gt;“Quality - The degree to which a set of inherent characteristics fulfills requirements”&lt;/strong&gt;. But how does QA implement
+such concepts, one of the key points is via Quality Management which I define as &lt;strong&gt;”ensure
+quality at a specific level throughout the entire process of the development cycle and to deliver a desired level of
+quality to the customer”&lt;/strong&gt;, and quite often the idea of “entire” is eroded by a waterfall process and the focus is just
+on the “delivery”.&lt;/p&gt;
+
+&lt;p&gt;Involving QA team members early means that they can apply Quality Management principles throughout the project. But that
+is not the only reason why you should involve QA people early. They can bring real value into planning and execution of
+projects, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They are often Subject Matter Experts, they can offer constructive and useful feedback as to how a new feature will
+interact with existing process. In fact a lot of the time involving QA is like involving your customers as QA are
+consistently using your product on a daily basis.&lt;/li&gt;
+  &lt;li&gt;They have an understanding of problem areas within your software, they know where the quirks are, they know areas
+which could be improved on to increase customer satisfaction. 
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not only can it be beneficial to have QAs involved in the early stages of projects, it is also beneficial to have them
+test early, which I refer to as the “test early and test often approach”.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Testing early allows for the detection of bugs and issues earlier on in the process. A bug fixed in the early stages
+can have both a saving in regards to the financial cost but also the time cost in the development process.&lt;/li&gt;
+  &lt;li&gt;Testing early also enables QAs to ensure that projects are progressing in line with the overall acceptance testing
+criteria.&lt;/li&gt;
+  &lt;li&gt;Testing often is an iterative approach to the above. 
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An example work-flow is as follow, (we will go into further details in the next few posts)
+&lt;img src=&quot;/images/qa-workflow.png&quot; alt=&quot;QA Work-flow&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;team-dynamics&quot;&gt;Team Dynamics&lt;/h2&gt;
+
+&lt;p&gt;One of the more common concepts in Agile development is to have small manageable teams, for example having a team of 4
+developers. As part of this team dynamic, you should consider embedding a QA person directly into the team. The benefits
+of this are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;QA testers can share their knowledge with Engineers directly.&lt;/li&gt;
+  &lt;li&gt;A relationship of trust can be built, rather than an “Us vs Them” mentality which often exists in the software
+development environment.&lt;/li&gt;
+  &lt;li&gt;Empowering QA along the development process.&lt;/li&gt;
+  &lt;li&gt;QAs can also have a clear channel of communication to the Product Owner, thus allowing for more transparency when defining the project objectives through their tests. 
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have also experimented with DoTing which is Developer on Testing (I will cover this at a later date), and these
+types of dynamics are beneficial because:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Allows QA testers to share their knowledge with Engineers on the testing process, how something will be tested, why it
+will be tested and when it will be tested.&lt;/li&gt;
+  &lt;li&gt;Enables QA testers to execute the “Test early and test often” concept, as team members are closely communicating an
+Engineer can ask a QA tester to have a look at their progress and smoke test.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 14 May 2016 22:01:04 +0800</pubDate>
+        <link>http://jasonaevans.com/qa-agile-process-mindset-and-team-dynamics</link>
+        <guid isPermaLink="true">http://jasonaevans.com/qa-agile-process-mindset-and-team-dynamics</guid>
+        
+        <category>QA,</category>
+        
+        <category>Software</category>
+        
+        <category>Engineering,</category>
+        
+        <category>Agile</category>
+        
+        
+        <category>Agile,</category>
+        
+        <category>QA</category>
+        
+      </item>
+    
+      <item>
+        <title>QA and the Agile Process (Introduction)</title>
+        <description>&lt;p&gt;I have spoken to a lot of people involved in software development, Engineers, Managers, CTOs, QAs, and when I ask about QA and Agile many struggle to come up with an answer and quite often I am told that they leave QA as a waterfall process. So does QA fit into the Agile process ?&lt;/p&gt;
+
+&lt;p&gt;This is a multipart part series on integrating QA into the Agile workplace.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;../qa-agile-process-mindset-and-team-dynamics&quot;&gt;&lt;strong&gt;Part 1&lt;/strong&gt; Will explore the mindset changes needed to have QA work within Agile, and will also cover the team dynamics.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 14 May 2016 22:01:04 +0800</pubDate>
+        <link>http://jasonaevans.com/qa-agile-process-introduction</link>
+        <guid isPermaLink="true">http://jasonaevans.com/qa-agile-process-introduction</guid>
+        
+        <category>QA,</category>
+        
+        <category>Software</category>
+        
+        <category>Engineering,</category>
+        
+        <category>Agile</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
